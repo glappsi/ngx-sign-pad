@@ -1,6 +1,9 @@
 # ngx-sign-pad
 ngx-sign-pad is an Angular wrapper for [szimek/signature_pad](https://www.npmjs.com/package/signature_pad).
 
+## NOTICE
+This is a fork of https://github.com/HeicoJoswig/ngx-sign-pad to make it ng 9 compatible.
+
 ## Usage
 
 ### 1. Install

@@ -14,6 +14,11 @@
           "options": {
             "tsConfig": "projects/sign-pad-lib/tsconfig.lib.json",
             "project": "projects/sign-pad-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/sign-pad-lib/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -167,5 +172,8 @@
       }
     }
   },
-  "defaultProject": "sign-pad-lib"
+  "defaultProject": "sign-pad-lib",
+  "cli": {
+    "analytics": false
+  }
 }
